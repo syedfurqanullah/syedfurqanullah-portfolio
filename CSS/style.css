@@ -1857,3 +1857,58 @@ html {
   gap: 0.15rem;
   font-size: 1.15rem;
 }
+
+/* =========================================================
+   ORGANIZED SKILL CATEGORIES
+   ========================================================= */
+
+.skills-categories {
+  display: grid;
+  gap: 30px;
+}
+
+.skills-category__title {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 14px;
+  color: #e2e8f0;
+  font-size: 1rem;
+  font-weight: 650;
+}
+
+.skills-category__title i {
+  color: #60a5fa;
+  font-size: 0.95rem;
+}
+
+.skills-grid--category {
+  grid-template-columns: repeat(auto-fit, minmax(135px, 1fr));
+}
+
+.skills-grid--category .skill-card {
+  min-height: 138px;
+}
+
+.skills-category__description {
+  margin-top: 12px;
+  color: #94a3b8;
+  font-size: 0.8rem;
+  line-height: 1.65;
+}
+
+@media (max-width: 600px) {
+  .skills-categories {
+    gap: 24px;
+  }
+
+  .skills-grid--category {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 10px;
+  }
+
+  .skills-grid--category .skill-card {
+    min-height: 130px;
+    padding: 15px 8px;
+  }
+}

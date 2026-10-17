@@ -13,8 +13,7 @@
     <meta name="author" content="Syed Furqan Ullah" />
 
     <meta name="theme-color" content="#050b16" />
-    <!-- <meta name="robots" content="index, follow" /> -->
-    <link rel="canonical" href="https://syedfurqanullah.github.io/" />
+    <link rel="canonical" href="https://syedfurqanullah.netlify.app/" />
     <meta property="og:site_name" content="Syed Furqan Ullah Portfolio" />
     <meta property="og:locale" content="en_US" />
     <meta
@@ -27,7 +26,7 @@
     />
     <meta
       property="og:image"
-      content="https://syedfurqanullah.github.io/assets/images/profile%20picture.jpg"
+      content="https://syedfurqanullah.netlify.app/assets/images/profile%20picture.jpg"
     />
     <meta property="og:image:alt" content="Syed Furqan Ullah profile" />
     <meta name="twitter:card" content="summary_large_image" />
@@ -41,10 +40,9 @@
     />
     <meta
       name="twitter:image"
-      content="https://syedfurqanullah.github.io/assets/images/profile%20picture.jpg"
+      content="https://syedfurqanullah.netlify.app/assets/images/profile%20picture.jpg"
     />
-    <title>Syed Furqan Ullah | Frontend Developer</title>
-    <!-- Favicon -->
+    <title>Syed Furqan Ullah Portfolio</title>
     <link
       rel="icon"
       type="image/png"
@@ -58,11 +56,7 @@
       href="assets/icons/favicon-192.png"
     />
     <link rel="apple-touch-icon" href="assets/icons/favicon-192.png" />
-
-    <!-- Font Awesome 6.7.2 Free â€” Locally Hosted (No CDN) -->
     <link rel="stylesheet" href="assets/icons/css/all.min.css" />
-
-    <!-- Portfolio Styles -->
     <link rel="stylesheet" href="CSS/variable.css" />
     <link rel="stylesheet" href="CSS/style.css" />
     <link rel="stylesheet" href="CSS/responsive.css" />
@@ -181,7 +175,7 @@
               </a>
               <a
                 class="secondary-button"
-                href="assets/resume/Syed_Furqan_Ullah_Frontend_Web_Developer_Resume.pdf"
+                href="./assets/resume/Syed Furqan-Ullah-Frontend-Developer.pdf"
                 download="Syed_Furqan_Ullah_Frontend_Web_Developer_Resume.pdf"
                 aria-label="Download Syed Furqan Ullah resume"
               >
@@ -293,8 +287,8 @@
             <article class="about-introduction">
               <p>
                 I’m a Frontend Web Developer focused on building modern,
-                responsive, and interactive web experiences using HTML, Modern
-                CSS, JavaScript, and API integration.
+                responsive, and interactive web experiences using React,
+                Tailwind CSS, TypeScript, and API integration.
               </p>
 
               <p>
@@ -394,119 +388,71 @@
             </p>
           </header>
 
-          <!-- Current skills -->
-          <div class="skills-grid">
-            <!-- HTML5 -->
-            <article class="skill-card">
-              <div class="skill-card__icon" aria-hidden="true">
-                <i class="fa-brands fa-html5" aria-hidden="true"></i>
+          <!-- Skills organized by category -->
+          <div class="skills-categories">
+            <section class="skills-category" aria-labelledby="skills-languages-title">
+              <h3 class="skills-category__title" id="skills-languages-title"><i class="fa-solid fa-code" aria-hidden="true"></i> Languages</h3>
+              <div class="skills-grid skills-grid--category">
+                <article class="skill-card"><div class="skill-card__icon" aria-hidden="true"><i class="fa-brands fa-html5"></i></div><div class="skill-card__content"><h3>HTML5</h3><p>Semantic Structure</p></div></article>
+                <article class="skill-card"><div class="skill-card__icon" aria-hidden="true"><i class="fa-brands fa-css3-alt"></i></div><div class="skill-card__content"><h3>CSS3</h3><p>Modern Styling</p></div></article>
+                <article class="skill-card"><div class="skill-card__icon" aria-hidden="true"><i class="fa-brands fa-js"></i></div><div class="skill-card__content"><h3>JavaScript (ES6+)</h3><p>Interactive Web Apps</p></div></article>
+                <article class="skill-card"><div class="skill-card__icon" aria-hidden="true"><span>TS</span></div><div class="skill-card__content"><h3>TypeScript</h3><p>Typed JavaScript</p></div></article>
               </div>
+            </section>
 
-              <div class="skill-card__content">
-                <h3>HTML5</h3>
-
-                <p>Semantic Structure</p>
+            <section class="skills-category" aria-labelledby="skills-frameworks-title">
+              <h3 class="skills-category__title" id="skills-frameworks-title"><i class="fa-solid fa-layer-group" aria-hidden="true"></i> Frameworks &amp; Libraries</h3>
+              <div class="skills-grid skills-grid--category">
+                <article class="skill-card"><div class="skill-card__icon" aria-hidden="true"><i class="fa-brands fa-react"></i></div><div class="skill-card__content"><h3>React.js</h3><p>Component-Based UI</p></div></article>
+                <article class="skill-card"><div class="skill-card__icon" aria-hidden="true"><span>N</span></div><div class="skill-card__content"><h3>Next.js</h3><p>React Framework</p></div></article>
+                <article class="skill-card"><div class="skill-card__icon" aria-hidden="true"><span>≈</span></div><div class="skill-card__content"><h3>Tailwind CSS</h3><p>Utility-First Styling</p></div></article>
+                <article class="skill-card"><div class="skill-card__icon" aria-hidden="true"><i class="fa-brands fa-bootstrap"></i></div><div class="skill-card__content"><h3>Bootstrap</h3><p>Responsive UI Toolkit</p></div></article>
+                <article class="skill-card"><div class="skill-card__icon" aria-hidden="true"><i class="fa-solid fa-route"></i></div><div class="skill-card__content"><h3>React Router</h3><p>Client-Side Routing</p></div></article>
+                <article class="skill-card"><div class="skill-card__icon" aria-hidden="true"><i class="fa-solid fa-share-nodes"></i></div><div class="skill-card__content"><h3>Context API</h3><p>Shared App State</p></div></article>
               </div>
-            </article>
+            </section>
 
-            <!-- Modern CSS -->
-            <article class="skill-card">
-              <div class="skill-card__icon" aria-hidden="true">
-                <i class="fa-brands fa-css3-alt" aria-hidden="true"></i>
+            <section class="skills-category" aria-labelledby="skills-tools-title">
+              <h3 class="skills-category__title" id="skills-tools-title"><i class="fa-solid fa-screwdriver-wrench" aria-hidden="true"></i> Tools &amp; Platforms</h3>
+              <div class="skills-grid skills-grid--category">
+                <article class="skill-card"><div class="skill-card__icon" aria-hidden="true"><i class="fa-brands fa-git-alt"></i></div><div class="skill-card__content"><h3>Git</h3><p>Version Control</p></div></article>
+                <article class="skill-card"><div class="skill-card__icon" aria-hidden="true"><i class="fa-brands fa-github"></i></div><div class="skill-card__content"><h3>GitHub</h3><p>Code Hosting</p></div></article>
+                <article class="skill-card"><div class="skill-card__icon" aria-hidden="true"><i class="fa-brands fa-npm"></i></div><div class="skill-card__content"><h3>npm</h3><p>Package Management</p></div></article>
+                <article class="skill-card"><div class="skill-card__icon" aria-hidden="true"><i class="fa-solid fa-bolt"></i></div><div class="skill-card__content"><h3>Vite</h3><p>Frontend Build Tool</p></div></article>
+                <article class="skill-card"><div class="skill-card__icon" aria-hidden="true"><i class="fa-solid fa-code"></i></div><div class="skill-card__content"><h3>VS Code</h3><p>Code Editor</p></div></article>
+                <article class="skill-card"><div class="skill-card__icon" aria-hidden="true"><i class="fa-solid fa-cloud-arrow-up"></i></div><div class="skill-card__content"><h3>Netlify</h3><p>Web Deployment</p></div></article>
+                <article class="skill-card"><div class="skill-card__icon" aria-hidden="true"><i class="fa-solid fa-triangle-exclamation"></i></div><div class="skill-card__content"><h3>Vercel</h3><p>Web Deployment</p></div></article>
               </div>
+            </section>
 
-              <div class="skill-card__content">
-                <h3>Modern UI CSS</h3>
-
-                <p>Modern Styling</p>
+            <section class="skills-category" aria-labelledby="skills-api-title">
+              <h3 class="skills-category__title" id="skills-api-title"><i class="fa-solid fa-plug" aria-hidden="true"></i> API Integration</h3>
+              <div class="skills-grid skills-grid--category">
+                <article class="skill-card"><div class="skill-card__icon" aria-hidden="true"><i class="fa-solid fa-diagram-project"></i></div><div class="skill-card__content"><h3>REST APIs</h3><p>Adzuna &amp; TMDB Integration</p></div></article>
+                <article class="skill-card"><div class="skill-card__icon" aria-hidden="true"><i class="fa-solid fa-briefcase"></i></div><div class="skill-card__content"><h3>Adzuna API</h3><p>HireFlow Job Listings</p></div></article>
+                <article class="skill-card"><div class="skill-card__icon" aria-hidden="true"><i class="fa-solid fa-film"></i></div><div class="skill-card__content"><h3>TMDB API</h3><p>CineVerse Movie Data</p></div></article>
+                <article class="skill-card"><div class="skill-card__icon" aria-hidden="true"><i class="fa-solid fa-arrow-right-arrow-left"></i></div><div class="skill-card__content"><h3>Fetch API</h3><p>CineVerse API Requests</p></div></article>
               </div>
-            </article>
+            </section>
 
-            <!-- Responsive design -->
-            <article class="skill-card">
-              <div class="skill-card__icon" aria-hidden="true">
-                <i class="fa-solid fa-laptop" aria-hidden="true"></i
-                ><i
-                  class="fa-solid fa-mobile-screen-button"
-                  aria-hidden="true"
-                ></i>
+            <section class="skills-category" aria-labelledby="skills-development-title">
+              <h3 class="skills-category__title" id="skills-development-title"><i class="fa-solid fa-lightbulb" aria-hidden="true"></i> Development Skills</h3>
+              <div class="skills-grid skills-grid--category">
+                <article class="skill-card"><div class="skill-card__icon" aria-hidden="true"><i class="fa-solid fa-bug-slash"></i></div><div class="skill-card__content"><h3>Debugging</h3><p>Find &amp; Fix Issues</p></div></article>
+                <article class="skill-card"><div class="skill-card__icon" aria-hidden="true"><i class="fa-solid fa-puzzle-piece"></i></div><div class="skill-card__content"><h3>Problem Solving</h3><p>Logic &amp; Troubleshooting</p></div></article>
+                <article class="skill-card"><div class="skill-card__icon" aria-hidden="true"><i class="fa-solid fa-wand-magic-sparkles"></i></div><div class="skill-card__content"><h3>AI-Assisted Development</h3><p>Build Faster &amp; Review Code</p></div></article>
               </div>
+            </section>
 
-              <div class="skill-card__content">
-                <h3>Responsive Design</h3>
-
-                <p>Fully Responsive Layout</p>
+            <section class="skills-category" aria-labelledby="skills-learning-title">
+              <h3 class="skills-category__title" id="skills-learning-title"><i class="fa-solid fa-book-open" aria-hidden="true"></i> Currently Learning</h3>
+              <div class="skills-grid skills-grid--category">
+                <article class="skill-card"><div class="skill-card__icon" aria-hidden="true"><i class="fa-brands fa-node-js"></i></div><div class="skill-card__content"><h3>Node.js</h3><p>Backend JavaScript</p></div></article>
+                <article class="skill-card"><div class="skill-card__icon" aria-hidden="true"><i class="fa-solid fa-server"></i></div><div class="skill-card__content"><h3>Express.js</h3><p>Backend Framework</p></div></article>
+                <article class="skill-card"><div class="skill-card__icon" aria-hidden="true"><i class="fa-solid fa-database"></i></div><div class="skill-card__content"><h3>Databases</h3><p>Data Storage Basics</p></div></article>
               </div>
-            </article>
-
-            <!-- JavaScript -->
-            <article class="skill-card">
-              <div class="skill-card__icon" aria-hidden="true">
-                <i class="fa-brands fa-js" aria-hidden="true"></i>
-              </div>
-
-              <div class="skill-card__content">
-                <h3>JavaScript( ES6+)</h3>
-
-                <p>Interactive Web Applications</p>
-              </div>
-            </article>
-
-            <!-- API Integration -->
-            <article class="skill-card">
-              <div class="skill-card__icon" aria-hidden="true">
-                <i class="fa-solid fa-code" aria-hidden="true"></i>
-              </div>
-
-              <div class="skill-card__content">
-                <h3>API Integration</h3>
-
-                <p>Dynamic Data & Services</p>
-              </div>
-            </article>
-
-            <!-- Git & GitHub -->
-            <article class="skill-card">
-              <div class="skill-card__icon" aria-hidden="true">
-                <i class="fa-brands fa-github" aria-hidden="true"></i>
-              </div>
-
-              <div class="skill-card__content">
-                <h3>Git & GitHub</h3>
-
-                <p>Version Control & Collaboration</p>
-              </div>
-            </article>
-
-            <!-- Problem Solving -->
-            <article class="skill-card">
-              <div class="skill-card__icon" aria-hidden="true">
-                <i class="fa-solid fa-lightbulb" aria-hidden="true"></i>
-              </div>
-
-              <div class="skill-card__content">
-                <h3>Problem Solving</h3>
-
-                <p>Logic & Debugging</p>
-              </div>
-            </article>
-
-            <!-- AI-assisted development -->
-            <article class="skill-card">
-              <div class="skill-card__icon" aria-hidden="true">
-                <i
-                  class="fa-solid fa-wand-magic-sparkles"
-                  aria-hidden="true"
-                ></i>
-              </div>
-
-              <div class="skill-card__content">
-                <h3>AI-Assisted Development</h3>
-
-                <p>AI-Powered Workflow</p>
-              </div>
-            </article>
-          </div>
+            </section>
+          </div>          </div>
         </div>
       </section>
       <!-- ==================================================
@@ -533,7 +479,80 @@
           <!-- Project collection -->
           <div class="projects-grid">
             <!-- ==================================================
-                         PROJECT 1 — NOVA AI
+                         PROJECT 1 — HireFlow Job Hub
+                         ================================================== -->
+
+            <article class="project-card">
+              <a
+                class="project-card__image-link"
+                href="hireflow-job-hub.vercel.app"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Open HireFlow Job Hub"
+              >
+                <figure class="project-card__image-wrapper">
+                  <img
+                    class="project-card__image"
+                    src="./assets/projects/hireflow-job-hub.png"
+                    alt="HireFlow Job Hub screenshot"
+                    loading="lazy"
+                    decoding="async"
+                    width="1600"
+                    height="900"
+                  />
+                </figure>
+              </a>
+
+              <div class="project-card__content">
+                <h3 class="project-card__title">HireFlow Job Hub</h3>
+
+                <p class="project-card__description">
+                  A modern job search platform built to make exploring career
+                  opportunities simple and intuitive, featuring a clean,
+                  responsive interface, interactive job listings, and search and
+                  filtering functionality for a smooth user experience.
+                </p>
+
+                <ul class="project-technologies" aria-label="Technologies used">
+                  <li>React.js</li>
+                  <li>React Router</li>
+                  <li>Tailwind CSS</li>
+                  <li>Responsive Design</li>
+                  <li>JavaScript</li>
+                  <li>Adzuna API</li>
+                  <li>API Integration</li>
+                </ul>
+
+                <div class="project-card__actions">
+                  <a
+                    class="project-link"
+                    href="https://hireflow-job-hub.vercel.app"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Live Demo
+                    <i
+                      class="fa-solid fa-arrow-up-right-from-square"
+                      aria-hidden="true"
+                    ></i>
+                  </a>
+
+                  <a
+                    class="project-link"
+                    href="https://github.com/syedfurqanullah/hireflow-job-hub"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label="View HireFlow Job Hub GitHub repository"
+                  >
+                    GitHub Repository
+                    <i class="fa-brands fa-github" aria-hidden="true"></i>
+                  </a>
+                </div>
+              </div>
+            </article>
+
+            <!-- ==================================================
+                         PROJECT 2 — NOVA AI
                          ================================================== -->
 
             <article class="project-card">
@@ -601,153 +620,8 @@
                 </div>
               </div>
             </article>
-
             <!-- ==================================================
-                         PROJECT 2 — NAXVY GAMING
-                         ================================================== -->
-
-            <article class="project-card">
-              <a
-                class="project-card__image-link"
-                href="https://naxvy-gaming.netlify.app/"
-                target="_blank"
-                rel="noopener noreferrer"
-                aria-label="Open NAXVY Gaming E-commerce Landing Page"
-              >
-                <figure class="project-card__image-wrapper">
-                  <img
-                    class="project-card__image"
-                    src="assets/projects/naxvy-gaming-e-comerce.png"
-                    alt="NAXVY Gaming E-commerce Landing Page screenshot"
-                    loading="lazy"
-                    decoding="async"
-                    width="1600"
-                    height="900"
-                  />
-                </figure>
-              </a>
-
-              <div class="project-card__content">
-                <h3 class="project-card__title">
-                  NAXVY Gaming E-commerce Frontend
-                </h3>
-
-                <p class="project-card__description">
-                  A modern gaming e-commerce experience focused on product
-                  discovery and interaction, featuring search, filtering, cart
-                  functionality, quick product views, theme switching, and a
-                  gaming setup builder
-                </p>
-
-                <ul class="project-technologies" aria-label="Technologies used">
-                  <li>HTML</li>
-                  <li>Modern CSS</li>
-                  <li>Responsive Design</li>
-                  <li>JavaScript</li>
-                </ul>
-
-                <div class="project-card__actions">
-                  <a
-                    class="project-link"
-                    href="https://naxvy-gaming.netlify.app/"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    Live Demo
-                    <i
-                      class="fa-solid fa-arrow-up-right-from-square"
-                      aria-hidden="true"
-                    ></i>
-                  </a>
-
-                  <a
-                    class="project-link"
-                    href="https://github.com/syedfurqanullah/naxvy-gaming"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    aria-label="View NAXVY Gaming GitHub repository"
-                  >
-                    GitHub Repository
-                    <i class="fa-brands fa-github" aria-hidden="true"></i>
-                  </a>
-                </div>
-              </div>
-            </article>
-
-            <!-- ==================================================
-                         PROJECT 3 — SKYPULSE WEATHER
-                         ================================================== -->
-
-            <article class="project-card">
-              <a
-                class="project-card__image-link"
-                href="https://sky-pulse-weather-app.netlify.app"
-                target="_blank"
-                rel="noopener noreferrer"
-                aria-label="Open SkyPulse Weather App"
-              >
-                <figure class="project-card__image-wrapper">
-                  <img
-                    class="project-card__image"
-                    src="assets/projects/sky-pulse-weather-app.png"
-                    alt="SkyPulse Weather App screenshot"
-                    loading="lazy"
-                    decoding="async"
-                    width="1600"
-                    height="900"
-                  />
-                </figure>
-              </a>
-
-              <div class="project-card__content">
-                <h3 class="project-card__title">SkyPulse Weather App</h3>
-
-                <p class="project-card__description">
-                  A responsive weather dashboard that works with real-time
-                  weather data and presents forecasts, air quality information,
-                  maps, and location-based weather insights through a clean and
-                  interactive interface.
-                </p>
-
-                <ul class="project-technologies" aria-label="Technologies used">
-                  <li>HTML</li>
-                  <li>Modern CSS</li>
-                  <li>Responsive Design</li>
-                  <li>JavaScript</li>
-                  <li>API Integration</li>
-                  <li>Fetch API</li>
-                </ul>
-
-                <div class="project-card__actions">
-                  <a
-                    class="project-link"
-                    href="https://sky-pulse-weather-app.netlify.app"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    Live Demo
-                    <i
-                      class="fa-solid fa-arrow-up-right-from-square"
-                      aria-hidden="true"
-                    ></i>
-                  </a>
-
-                  <a
-                    class="project-link"
-                    href="https://github.com/syedfurqanullah/skypulse-weather-app"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    aria-label="View SkyPulse Weather App GitHub repository"
-                  >
-                    GitHub Repository
-                    <i class="fa-brands fa-github" aria-hidden="true"></i>
-                  </a>
-                </div>
-              </div>
-            </article>
-
-            <!-- ==================================================
-                         PROJECT 4 — CINEVERSE
+                         PROJECT 3 — CINEVERSE
                          ================================================== -->
 
             <article class="project-card">
