@@ -23,9 +23,8 @@ A responsive frontend developer portfolio built with semantic HTML, modern CSS, 
 
 ## Featured Projects
 
+- Hireflow Job Hub 
 - Nova AI Automation
-- NAXVY Gaming E-commerce
-- SkyPulse Weather App
 - CineVerse Movie Discovery
 
 ## Technologies
@@ -33,7 +32,6 @@ A responsive frontend developer portfolio built with semantic HTML, modern CSS, 
 - HTML5 
 - Modern CSS3
 - JavaScript (ES6+) 
-- Font Awesome
 
 ## Project structure
 
@@ -72,7 +70,7 @@ Explore my work to see how I create clean, responsive, and user-focused web expe
 
 ## Contact
 
-- My Portfolio: [Syed Furqan Ullah](https://syed-furqan-ullah-portfolio.netlify.app/)
+- My Portfolio: [Syed Furqan Ullah](https://syedfurqanullah.netlify.app/)
 - GitHub: [syedfurqanullah](https://github.com/syedfurqanullah)
 - LinkedIn: [Syed Furqan Ullah](https://www.linkedin.com/in/syed-furqan-ullah/)
 
